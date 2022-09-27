@@ -7,7 +7,7 @@ object ActorsIntro2 {
 
   def demoSimpleActor(str : String):Unit={
     // Step 2 : instantiate
-    val actorSystem = ActorSystem(simpleActor(),"FirstActorSystem")
+    val actorSystem = ActorSystem(simpleActor_v2(),"FirstActorSystem")
 
     // Step 3 : communicate
     actorSystem ! str // asynchronously sends message
@@ -25,7 +25,16 @@ object ActorsIntro2 {
     }
   }
 
-  object simple
+  object simpleActor_v2{
+    def apply(): Behavior[String] = Behaviors.receive{(context,message) =>
+      // context is a data structure (ActorContext) with access to a variety of APIs
+      // simple example : logging
+      context.log.info(s"I received: $message")
+
+      // new behavior for the next message
+      Behaviors.same
+    }
+  }
 
   def main(args: Array[String]): Unit = {
     demoSimpleActor("I love Akka!")

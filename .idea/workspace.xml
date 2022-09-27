@@ -5,40 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a032489-6830-405c-967e-a9598642a1f8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Akka-Rock-The-JVM-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Akka-Rock-The-JVM-build.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Akka-Rock-The-JVM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Akka-Rock-The-JVM.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/actors/ActorsIntro3.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$0874e32940375dffd510$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$0874e32940375dffd510.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$0874e32940375dffd510.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$097a67a2d4b4c954d6ec$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$097a67a2d4b4c954d6ec.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$097a67a2d4b4c954d6ec.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8e4a2e7cea9b9226ecc9$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8e4a2e7cea9b9226ecc9.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8e4a2e7cea9b9226ecc9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8eda4f6686abc00c202c$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8eda4f6686abc00c202c.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8eda4f6686abc00c202c.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ee5842111fde42efeed3$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ee5842111fde42efeed3.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ee5842111fde42efeed3.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/actors/ActorsIntro.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/actors/ActorsIntro.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/actors/slf4j-api-2.0.2-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/input_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/actors/ActorsIntro2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/actors/ActorsIntro2.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/actors/ActorsIntro2$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/actors/ActorsIntro2$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/actors/ActorsIntro2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/actors/ActorsIntro2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +45,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ActorsIntro2">
+  <component name="RunManager" selected="Application.ActorsIntro3">
     <configuration name="ActorsIntro" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="actors.ActorsIntro" />
       <module name="Akka-Rock-The-JVM" />
@@ -100,6 +72,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ActorsIntro3" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="actors.ActorsIntro3" />
+      <module name="Akka-Rock-The-JVM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="actors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="practice1" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Basic.practice1" />
       <module name="Akka-Rock-The-JVM" />
@@ -115,6 +100,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ActorsIntro3" />
         <item itemvalue="Application.ActorsIntro2" />
         <item itemvalue="Application.ActorsIntro" />
         <item itemvalue="Application.practice1" />
