@@ -22,7 +22,7 @@ object ActorsIntro {
     actorSystem ! str // asynchronously sends message
     actorSystem ! "***************"
     // Step 4 : Shut Down [ Not recommended]
-    actorSystem.terminate()
+//    actorSystem.terminate()
   }
 
   def main(args: Array[String]): Unit = {

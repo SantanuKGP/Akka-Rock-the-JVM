@@ -25,6 +25,8 @@ object ActorsIntro2 {
     }
   }
 
+  object simple
+
   def main(args: Array[String]): Unit = {
     demoSimpleActor("I love Akka!")
     demoSimpleActor("I love Scala!")
