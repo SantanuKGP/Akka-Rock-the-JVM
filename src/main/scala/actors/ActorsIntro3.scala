@@ -23,7 +23,7 @@ object ActorsIntro3 {
 
       // behavior used for the first message
       Behaviors.receiveMessage{(message: String) =>
-        println(s"I received: $message")
+        context.log.info(s"I received: $message")
         Behaviors.same
       }
     }
