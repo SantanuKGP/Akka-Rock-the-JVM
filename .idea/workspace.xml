@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a032489-6830-405c-967e-a9598642a1f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/actors/ActorsState.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/childActors/Playground.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/childActors/childActors.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/childActors/childActors1.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/childActors/childActors2.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/childActors/stoppingActor.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/actors/ActorsState.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/actors/ActorsState.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/childActors/Playground.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/childActors/Playground.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/childActors/childActors.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/childActors/childActors.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/childActors/childActors1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/childActors/childActors1.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/childActors/childActors2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/childActors/childActors2.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/childActors/stoppingActor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/childActors/stoppingActor.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/actors/ActorIntro6$.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/actors/ActorIntro6$weird$.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/actors/ActorIntro6.class" beforeDir="false" />
@@ -51,7 +51,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.childActors1">
+  <component name="RunManager" selected="Application.stoppingActor">
     <configuration name="Playground" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="childActors.Playground" />
       <module name="Akka-Rock-The-JVM" />
@@ -119,9 +119,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.stoppingActor" />
         <item itemvalue="Application.childActors1" />
         <item itemvalue="Application.childActors" />
-        <item itemvalue="Application.stoppingActor" />
         <item itemvalue="Application.childActors2" />
         <item itemvalue="Application.Playground" />
       </list>
