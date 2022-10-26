@@ -5,13 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a032489-6830-405c-967e-a9598642a1f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/actors/ActorIntro6.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/actors/ActorsIntro5.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/actors/ActorsIntro7.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/actors/ActorsState.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/childActors/Playground.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/childActors/childActors.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/childActors/childActors1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/childActors/childActors2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/childActors/stoppingActor.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/actors/ActorsIntro3.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/actors/ActorsIntro3.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/actors/ActorsIntro4.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/actors/ActorsIntro4.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/actors/ActorsIntro3$simpleActor$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/actors/ActorsIntro3$simpleActor$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/actors/ActorIntro6$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/actors/ActorIntro6$weird$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/actors/ActorIntro6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/actors/ActorsIntro7$betterActor$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/actors/ActorsIntro7$betterActor$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/actors/ActorsIntro7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/actors/ActorsIntro7.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,13 +51,13 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ActorsIntro7">
-    <configuration name="ActorIntro6" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="actors.ActorIntro6" />
+  <component name="RunManager" selected="Application.childActors1">
+    <configuration name="Playground" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="childActors.Playground" />
       <module name="Akka-Rock-The-JVM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="actors.*" />
+          <option name="PATTERN" value="childActors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -60,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ActorsIntro2" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="actors.ActorsIntro2" />
+    <configuration name="childActors" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="childActors.childActors" />
       <module name="Akka-Rock-The-JVM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="actors.*" />
+          <option name="PATTERN" value="childActors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ActorsIntro3" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="actors.ActorsIntro3" />
+    <configuration name="childActors1" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="childActors.childActors1" />
       <module name="Akka-Rock-The-JVM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="actors.*" />
+          <option name="PATTERN" value="childActors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ActorsIntro5" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="actors.ActorsIntro5" />
+    <configuration name="childActors2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="childActors.childActors2" />
       <module name="Akka-Rock-The-JVM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="actors.*" />
+          <option name="PATTERN" value="childActors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ActorsIntro7" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="actors.ActorsIntro7" />
+    <configuration name="stoppingActor" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="childActors.stoppingActor" />
       <module name="Akka-Rock-The-JVM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="actors.*" />
+          <option name="PATTERN" value="childActors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ActorsIntro7" />
-        <item itemvalue="Application.ActorIntro6" />
-        <item itemvalue="Application.ActorsIntro5" />
-        <item itemvalue="Application.ActorsIntro3" />
-        <item itemvalue="Application.ActorsIntro2" />
+        <item itemvalue="Application.childActors1" />
+        <item itemvalue="Application.childActors" />
+        <item itemvalue="Application.stoppingActor" />
+        <item itemvalue="Application.childActors2" />
+        <item itemvalue="Application.Playground" />
       </list>
     </recent_temporary>
   </component>
