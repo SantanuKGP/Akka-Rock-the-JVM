@@ -1,0 +1,5 @@
+package Infrastructure
+
+object AkkaConfiguration {
+
+}

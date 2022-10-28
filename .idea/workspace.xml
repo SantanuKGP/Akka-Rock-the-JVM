@@ -5,18 +5,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a032489-6830-405c-967e-a9598642a1f8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_13_1_3_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_13_9_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalactic_scalactic_2_13_3_2_9_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_13_3_2_9_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_compatible_3_2_9_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_core_2_13_3_2_9_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_diagrams_2_13_3_2_9_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_featurespec_2_13_3_2_9_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_flatspec_2_13_3_2_9_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_freespec_2_13_3_2_9_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_funspec_2_13_3_2_9_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_funsuite_2_13_3_2_9_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_matchers_core_2_13_3_2_9_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_mustmatchers_2_13_3_2_9_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_propspec_2_13_3_2_9_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_refspec_2_13_3_2_9_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_shouldmatchers_2_13_3_2_9_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_wordspec_2_13_3_2_9_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Infrastructure/AkkaConfiguration.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Infrastructure/GroupRoutersDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Infrastructure/RoutersDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Infrastructure/Schedulers.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/childActors/BreakingActorEncapsulation.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/utils/package.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/Infra/TimersSpec.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Akka-Rock-The-JVM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Akka-Rock-The-JVM.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/actors/ActorsState.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/actors/ActorsState.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/childActors/Playground.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/childActors/Playground.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/childActors/childActors.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/childActors/childActors.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/childActors/childActors1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/childActors/childActors1.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/childActors/childActors2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/childActors/childActors2.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/childActors/stoppingActor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/childActors/stoppingActor.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/actors/ActorIntro6$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/actors/ActorIntro6$weird$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/actors/ActorIntro6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/actors/ActorsIntro7$betterActor$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/actors/ActorsIntro7$betterActor$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/actors/ActorsIntro7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/actors/ActorsIntro7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$eeed65e2f512413b60df$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$eeed65e2f512413b60df.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$eeed65e2f512413b60df.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/update/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/input_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/_global/streams/export" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +65,20 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Package Object" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.scala" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.scala" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.scala" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -51,9 +97,9 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.stoppingActor">
-    <configuration name="Playground" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="childActors.Playground" />
+  <component name="RunManager" selected="Application.GroupRoutersDemo">
+    <configuration name="BreakingActorEncapsulation" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="childActors.BreakingActorEncapsulation" />
       <module name="Akka-Rock-The-JVM" />
       <extension name="coverage">
         <pattern>
@@ -65,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="childActors" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="childActors.childActors" />
+    <configuration name="GroupRoutersDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Infrastructure.GroupRoutersDemo" />
       <module name="Akka-Rock-The-JVM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="childActors.*" />
+          <option name="PATTERN" value="Infrastructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="childActors1" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="childActors.childActors1" />
+    <configuration name="RoutersDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Infrastructure.RoutersDemo" />
       <module name="Akka-Rock-The-JVM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="childActors.*" />
+          <option name="PATTERN" value="Infrastructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="childActors2" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="childActors.childActors2" />
+    <configuration name="Schedulers" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Infrastructure.Schedulers" />
       <module name="Akka-Rock-The-JVM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="childActors.*" />
+          <option name="PATTERN" value="Infrastructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,26 +150,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="stoppingActor" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="childActors.stoppingActor" />
+    <configuration name="TimersSpec" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="Akka-Rock-The-JVM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="childActors.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="allowRunningInParallel" value="false" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="testKind" value="Class" />
+      <option name="testClassPath" value="Infra.TimersSpec" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.stoppingActor" />
-        <item itemvalue="Application.childActors1" />
-        <item itemvalue="Application.childActors" />
-        <item itemvalue="Application.childActors2" />
-        <item itemvalue="Application.Playground" />
+        <item itemvalue="Application.GroupRoutersDemo" />
+        <item itemvalue="Application.RoutersDemo" />
+        <item itemvalue="ScalaTest.TimersSpec" />
+        <item itemvalue="Application.Schedulers" />
+        <item itemvalue="Application.BreakingActorEncapsulation" />
       </list>
     </recent_temporary>
   </component>
