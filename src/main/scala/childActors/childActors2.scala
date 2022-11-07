@@ -12,6 +12,7 @@ object childActors2{
   case class Initialize(nChildren:Int) extends MasterProtocol
   case class WordCountTask(text: String, replyTo:ActorRef[UserProtocol]) extends MasterProtocol
   case class WordCountReply(id: Int,count:Int) extends MasterProtocol
+
   case class WorkerTask(id: Int, text: String) extends WorkerProtocol
   case class Reply(count: Int) extends UserProtocol
 
@@ -76,7 +77,6 @@ object childActors2{
         case Reply(count) =>
           context.log.info(s"[Aggregator] : I've received $count, Total words: ${totalWords+count}")
           active(totalWords+count)
-
       }
     }
   }

@@ -22,3 +22,4 @@ libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % scalaTestVersion,
 //  "ch.qos.logback" % "logback-classic" % logbackVersion
 )
+libraryDependencies += "org.tensorflow" % "tensorflow-lite" % "2.10.0" % "runtime"
